@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    font-family: 'gotham',sans-serif;
+}
 .a_body{
     background-color: rgba(252, 210, 14);
 }
@@ -28,7 +30,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
 }
 
 header img {
@@ -51,7 +52,6 @@ nav ul li a {
     margin-inline: 1rem;
     padding:0.5rem 2rem ;
 }
-
 
 #a_for{
     background: rgba(70, 138, 201);
@@ -79,7 +79,6 @@ nav ul li a {
 }
 #a_h1{
     color: white;
-    font-family: 'Gotham', sans-serif;
     font-size: 3.5rem;
     font-style: italic;
     text-align: center;
@@ -87,12 +86,10 @@ nav ul li a {
 }
 #a_h2{
     padding: 1rem 2rem;
-    font-family: 'Gotham', sans-serif;
     max-width: 33rem;
 }
 #a_p{
     padding: 1rem 2rem;
-    font-family: 'Gotham', sans-serif;
     max-width: 35rem;
 }
 .a_main img{
@@ -102,7 +99,6 @@ nav ul li a {
     width: 40rem;
 }
 #a_button{
-    font-family: 'Gotham', sans-serif;
     background-color: rgba(70, 138, 201);
     text-decoration: none;
     font-size: 2rem;
@@ -121,6 +117,42 @@ nav ul li a {
 
 /* ---------------------- formation  ----------------------------- */
 
+#f_h1{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+
+}
+.f_information{
+    display: flex;
+    padding: 2rem;
+}
+.f_information div{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    margin: 0 1rem;
+    padding: 2rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    
+}
+.f_information div ul{
+    list-style-type: none;
+}
+.f_information div ul li{
+    padding: 0.2rem 0;
+}
+.f_information div p{
+    padding: 0.5rem 0;
+}
+.f_information div h2{
+    padding: 1rem 0;
+    color:yellow;
+}
 
 
 /* ---------------------- temoignage ----------------------------- */
