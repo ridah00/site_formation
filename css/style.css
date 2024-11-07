@@ -1,0 +1,58 @@
+/* --------------------- la barre de navigation  -------------------  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header img {
+    height: 8rem; 
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin-inline: 1rem;
+    padding:0.5rem 2rem ;
+}
+nav ul li a:hover{
+    transform: scale(1.2);
+}
+
+#a_for{
+    background: rgba(70, 138, 201);
+    border-radius: 0.5rem;
+}
+#a_tem{
+    background: rgba(132, 173, 33);
+    border-radius: 0.5rem;
+}
+#a_ref{
+    background: rgba(124, 152, 173);
+    border-radius: 0.5rem;
+}
+#a_con{
+    background: rgba(240, 73, 37);
+    border-radius: 0.5rem;
+}
+/* ---------------------- main ----------------------------- */
