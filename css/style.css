@@ -1,14 +1,30 @@
-/* --------------------- la barre de navigation  -------------------  */
+
 
 * {
     margin: 0;
     padding: 0;
 }
 
-body {
+.a_body{
+    background-color: rgba(252, 210, 14);
+}
+.f_body{
+    background: rgba(70, 138, 201);
+}
+.t_body{
+    background: rgba(132, 173, 33);
+}
+.r_body{
+    background: rgba(124, 152, 173);
+}
+.c_body{
+    background: rgba(240, 73, 37);
 }
 
+/* --------------------- la barre de navigation  -------------------  */
+
 header {
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +32,7 @@ header {
 }
 
 header img {
-    height: 8rem; 
+    height: 6rem; 
 }
 
 nav ul {
@@ -35,9 +51,7 @@ nav ul li a {
     margin-inline: 1rem;
     padding:0.5rem 2rem ;
 }
-nav ul li a:hover{
-    transform: scale(1.2);
-}
+
 
 #a_for{
     background: rgba(70, 138, 201);
@@ -55,4 +69,66 @@ nav ul li a:hover{
     background: rgba(240, 73, 37);
     border-radius: 0.5rem;
 }
-/* ---------------------- main ----------------------------- */
+/* ----------------------######### main  ############----------------------------- */
+
+
+/* ---------------------- accueil  ----------------------------- */
+.a_main{
+    height: fit-content;
+    position: relative;
+}
+#a_h1{
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-size: 3.5rem;
+    font-style: italic;
+    text-align: center;
+    padding:2rem 0;
+}
+#a_h2{
+    padding: 1rem 2rem;
+    font-family: 'Gotham', sans-serif;
+    max-width: 33rem;
+}
+#a_p{
+    padding: 1rem 2rem;
+    font-family: 'Gotham', sans-serif;
+    max-width: 35rem;
+}
+.a_main img{
+    padding: 1rem 1rem ;
+    float: right;
+    height: 35rem;
+    width: 40rem;
+}
+#a_button{
+    font-family: 'Gotham', sans-serif;
+    background-color: rgba(70, 138, 201);
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+    width: 35rem;
+    border-radius: 0.5rem;
+    color: white;
+    position: absolute;
+    top: 40rem;
+    left: 2rem;
+    text-align: center;
+}
+
+
+
+
+/* ---------------------- formation  ----------------------------- */
+
+
+
+/* ---------------------- temoignage ----------------------------- */
+
+
+
+/* ---------------------- references ----------------------------- */
+
+
+
+/* ---------------------- contact ----------------------------- */
